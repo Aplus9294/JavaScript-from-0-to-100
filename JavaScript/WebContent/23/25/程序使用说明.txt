@@ -1,0 +1,3 @@
+运行本实例，需要下载Jpgraph类库，Jpgraph类库可以从其官方网站“http://www.aditus.nu/jpgraph/”下载。
+
+注意：Jpgraph需要GD库的支持。如果用户希望Jpgraph类库仅对当前站点有效，只需将Jpgraph压缩包下的src文件夹中的全部文件拷贝到网站所在目录下即可，在使用时，调用src文件夹下的指定文件即可，在后面的典型实例中具体讲解。

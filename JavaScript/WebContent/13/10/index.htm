@@ -1,0 +1,61 @@
+<html><head>
+<title>改变超链接字体样式</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="Css/style.css" rel="stylesheet">
+</head>
+<body>
+<p>&nbsp;</p>
+<p>
+  <script language="javascript">
+function onmovein(v)
+{
+  if (v=="a")
+  {
+  	a.style.fontWeight = "Bold";//粗体
+  }	
+  if (v=="b")
+  {
+  	b.style.fontStyle = "Italic";//斜体	
+  }	
+  if (v=="c")
+  {
+  	c.style.textDecoration = "underline";//下划线
+  }
+  if (v=="d")
+  {
+    d.style.textDecoration = "line-through";//删除线
+
+  }
+  if (v=="e")
+  {
+    e.style.fontWeight = "Bold";//粗体
+	e.style.fontStyle = "Italic";//斜体	
+
+  }
+}
+function onmoveout()
+{
+	a.style.fontWeight = "normal";
+	b.style.fontStyle = "normal";
+	c.style.textDecoration = "none";
+	d.style.textDecoration = "none";
+    e.style.fontStyle = "normal";
+	e.style.fontWeight = "normal";
+}
+</script>
+</p>
+<table width="44%" height="26"  border="0" align="center" cellpadding="-2" cellspacing="-2" class="tableBorder_Top">
+          <tr>
+            <td width="10" height="25" background="Images/bg_Navigate.GIF">&nbsp; </td>
+			<!--版主登录时显示的导航条-->
+            <td width="427" align="center" background="Images/bg_Navigate.GIF">
+
+			<a href="#" name="a" onMouseMove="onmovein('a');" onMouseOut="onmoveout();">粗体文字</a> ┊
+			<a href="#" name="b" onMouseMove="onmovein('b');" onMouseOut="onmoveout();">斜体文字</a> ┊ 
+			<a href="#" name="c" onMouseMove="onmovein('c');" onMouseOut="onmoveout();">下划线文字</a> ┊ 
+			<a href="#" name = "d" onMouseMove="onmovein('d');" onMouseOut="onmoveout();"onClick="window.location.reload(); ">删除线文字</a> ┊ 
+			<a href="#" name="e" onMouseMove="onmovein('e');" onMouseOut="onmoveout();">粗斜体文字</a>  </td>
+          </tr>
+</table>
+</body>
+</html>

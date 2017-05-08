@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>x和y属性在动态移动层中的运用</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.STYLE1 {font-size: 13px}
+-->
+</style>
+<body bgcolor="#ADBAB1">
+<div  id="div1" class=yellow style="VISIBILITY:visible ; background-color:#FFFF00; position: absolute; top: 60; left: 200; width: 360; height: 250; filter: revealTrans(transition=12, 'duration=0.1) blendTrans(duration=0.1)">
+	<div id=title onmousedown=div_down("div1") style="background-color:#30608F;padding:2px; font-size:13px;text-indent:5;color:#FFFFFF;cursor:move">吉林省明日科技有限公司</div>
+	<img id=close  onclick=Hide(div1)  style="position: absolute; right: 2; top: 2" border="0" src="close.gif" width="15" height="15">	<span class="STYLE1"><br>&nbsp;&nbsp;吉林省明日科技有限公司是一家以计算机软件技术为核心的高科技型企业，公司创建于1999年12月，是专业的应用软件开发商和服务提供商。多年来始终致力于行业管理软件开发、数字化出版物开发制作、行业电子商务网站开发等，先后成功开发了涉及生产、管理、物流、营销、服务等领域的多种企业管理应用软件和应用平台，目前已成为计算机出版行业的知名品牌。</span></div>
+<script language="JavaScript">
+var Obj="none";
+var pX
+var pY
+document.onmousemove=div_move;
+document.onmouseup=div_up;
+function div_down(tag){
+	Obj=tag;
+	pX=parseInt(document.all(Obj).style.left)-event.x;
+	pY=parseInt(document.all(Obj).style.top)-event.y;
+}
+function div_move(){
+	if(Obj!="none"){
+		document.all(Obj).style.left=pX+event.x;
+		document.all(Obj).style.top=pY+event.y;
+		event.returnValue=false;
+	}
+}
+function div_up(){Obj="none";}
+function Hide(divid){
+	divid.filters.revealTrans.apply();
+	divid.style.visibility = "hidden";
+	divid.filters.revealTrans.play();
+}
+</script>
+</body>
+</html>

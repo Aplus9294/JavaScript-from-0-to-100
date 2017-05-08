@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>选中的行背景变色</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<table width="234" height="77" border="1">
+  <tr align="center" id="tr1" onMouseOver="over(this.id)" onMouseOut="out(this.id)">
+    <td width="52">&nbsp;</td>
+    <td width="65">商品</td>
+    <td width="95">价格（元）</td>
+  </tr>
+  <tr align="center" id="tr2" onMouseOver="over(this.id)" onMouseOut="out(this.id)">
+    <td>A商场</td>
+    <td>S商品</td>
+    <td>100</td>
+  </tr>
+  <tr align="center" id="tr3" onMouseOver="over(this.id)" onMouseOut="out(this.id)">
+    <td>B商场</td>
+    <td>S商品</td>
+    <td>80</td>
+  </tr>
+</table>
+<script language="javascript">
+function over(trname){
+	eval(trname).style.backgroundColor="0000FF";
+	eval(trname).style.color="FFFFFF";
+}
+function out(trname){
+	eval(trname).style.backgroundColor="FFFFFF";
+	eval(trname).style.color="000000";
+}
+</script>
+</body>
+</html>

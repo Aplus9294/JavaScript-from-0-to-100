@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>动态标题栏</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<img  src="个人主页主页.jpg" >
+<script language="JavaScript">
+var n=0;
+function title(){
+	n++;
+    if (n==3) {n=1}
+    if (n==1) {document.title='☆★动态标题栏★☆'}
+    if (n==2) {document.title='★☆个人主页☆★'}
+    setTimeout("title()",1000);
+}
+title();
+</script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--meta name="save" content="history"-->
+<title>Cookie的读取</title>
+<link href="CSS/sheet.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+function submit2(){
+	if(document.form1.username.value.length==0){
+		alert("用户名不可为空");
+		return false;
+	}
+	if(document.form1.password1.value.length==0){
+		alert("密码不可为空");
+		return false;
+	}
+	if(document.form1.password1.value!=document.form1.password2.value){
+		alert("两次密码输入不相同");
+		return false;
+	}
+	if(!checkemail(document.form1.mail.value)){
+		alert("您输入Email地址不正确!");form1.mail.select();return false;
+	}
+	alert("提交成功");
+	writeCookie();
+	return true;
+}
+
+function testRadio(){
+	var charactergroup=document.forms[0].elements["sex"];
+	for(var i=0;i<charactergroup.length;i++){
+		if(charactergroup[i].checked==true){
+			document.cookie=encodeURI("sex="+charactergroup[i].value);
+		}
+	}
+}
+	
+
+
+function writeCookie(){
+	document.cookie=encodeURI("username="+document.form1.username.value);
+	document.cookie=encodeURI("password="+document.form1.password1.value);
+	testRadio();
+}
+function readCookie(){
+	var cookieString=decodeURI(document.cookie);
+	if(cookieString.length!=0){
+	var cookieArray=cookieString.split(";");
+	for(var i=0;i<cookieArray.length;i++){
+		var cookieNum=cookieArray[i].split("=");
+		var cookieName=cookieNum[0];
+		var cookieValue=cookieNum[1];
+		alert("Cookie名称为:"+cookieName+" Cookie值为:"+cookieValue);
+	}
+	}else
+	alert("暂时没有Cookie,请填写信息，单击提交按钮");
+}
+
+
+
+function checkemail(str){
+	 //在JavaScript中，正则表达式只能使用"/"开头和结束，不能使用双引号
+	var Expression=/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; 
+	var objExp=new RegExp(Expression);
+	if(objExp.test(str)==true){
+		return true;
+	}else{
+		return false;
+	}
+}
+</script>
+<script language="javascript">
+var x,y
+function handlerMM(){
+	x =  window.event.x + document.body.clientLeft
+	y =	 window.event.y + document.body.clientTop;
+}
+function makesnake() {
+	if (document.all) {
+    	var ob = document.all("tdiv")
+    	ob.style.posLeft=x
+		ob.style.posTop=y
+	}
+		var timer=setTimeout("makesnake()",10)
+}
+document.onmousemove = handlerMM;
+</script>
+</head>
+
+<body  onload="makesnake()">
+<div id="tdiv" style='position:absolute'>
+	<img src='Mymouse.gif' width='32' height='32' class="spanstyle">
+</div>
+<!--div id="div1" style="position: absolute;  text-align:center; visibility:hidden; filter: revealTrans(Transition=8, Duration=1)  revealTrans(Transition=9, Duration=3)  revealTrans(Transition=10, Duration=1)  revealTrans(Transition=11, Duration=2)  revealTrans(Transition=12, Duration=3)  revealTrans(Transition=17, Duration=2)  revealTrans(Transition=18, Duration=3) revealTrans(Transition=19, Duration=1) revealTrans(Transition=20, Duration=2) revealTrans(Transition=21, Duration=3)"><img id="img1"></div-->
+<!--页面浮动广告-->
+<!--script language="javascript">
+var n=0;
+var n1=0;
+var is=true;
+document.all.div1.style.top=document.body.clientHeight-135;
+document.all.div1.style.left=document.body.clientWidth-175;
+function showdiv(){
+	n=Math.floor(Math.random()*10);
+	document.all.div1.filters[n].apply();
+	if (n1==4){n1=1}
+	else{n1=n1+1}
+	document.all.img1.src=n1+".jpg";
+	if (is==true){	
+		document.all.div1.style.visibility="visible";
+		is=false;
+	}else{
+		document.all.div1.style.visibility="hidden";
+		is=true;
+	}
+	document.all.div1.filters[n].play();
+	setTimeout("showdiv()",6000);
+}
+showdiv();
+function place(){
+	window.status=String(n);
+	document.all.div1.style.top=parseInt(document.body.scrollTop)+parseInt(document.body.clientHeight)-135;
+	document.all.div1.style.left=parseInt(document.body.scrollLeft)+parseInt(document.body.clientWidth)-175;
+	setTimeout("place()",50)
+}
+place();
+</script-->
+<!--随机播放MP3-->
+<!--script language="javascript">
+var arrayname=new Array();
+for (var i=0;i<5;i++)
+{
+	arrayname[i]="music"+(i+1)+".mp3";
+}
+var x=(Math.floor(Math.random()*4)+1);
+document.write('<bgsound src='+'"'+arrayname[x]+'"'+' loop="infinite">');
+</script-->
+<table width="800" height="689" border="0" align="center">
+<form action="" method="post" name="form1">
+  <tr>
+    <td background="博客用户注册.jpg">
+	  <table width="800" height="451" border="0">
+        <tr>
+          <td width="113" rowspan="3">&nbsp;</td>
+          <td width="491" height="140">&nbsp;</td>
+          <td width="182" rowspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="175" valign="top"><table width="100%"  border="0">
+              <tr>
+                <td width="30%" class="zi"><div align="right">用户名：</div></td>
+                <td width="70%" align="center">
+                  <div align="left">
+                    <input name="username" type="text" size="40">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">密码：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="password1" type="password" size="20" oncopy="return false" oncut="return false" onpaste="return false" style="font-family: Wingdings">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">重复密码：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="password2" type="password" size="20" oncopy="return false" oncut="return false" onpaste="return false" style="font-family: Wingdings">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">姓名：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="realname" type="text" size="40">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">性别：</div></td>
+                <td>
+                  <div align="left">
+                    <input type="radio" name="sex" value="radiobutton" checked> 
+                    <span class="zi">男</span>                    
+                    <input type="radio" name="sex" value="radiobutton">
+                    <span class="zi">                    女</span>           
+                      </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">QQ号码：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="qqnum" type="text" size="40">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">主页：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="zy" type="text" size="40">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">兴趣：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="xq" type="text" size="40">
+                    </div></td></tr>
+              <tr>
+                <td class="zi"><div align="right">Email：</div></td>
+                <td>
+                  <div align="left">
+                    <input name="mail" type="text" size="40">
+                    </div></td></tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td valign="top"><table width="100%"  border="0">
+            <tr>
+              <td width="22%">&nbsp;</td>
+              <td width="13%"><input type="image" src="1.gif" width="51" height="20" onClick="return submit2();"></td>
+              <td width="13%"><input type="image" src="2.gif" width="51" height="20" onClick="javascript:reset();"></td>
+              <td width="13%"><input type="image" src="3.gif" width="51" height="20" onClick="javascript:window.close();"></td>
+              <td width="39%"><input type="image" src="4.gif" width="65" height="20" onClick="readCookie();"></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

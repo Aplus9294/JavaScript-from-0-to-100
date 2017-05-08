@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?>
+<employes>
+<employe id='1'>
+<number>1001</number>
+<name>李**</name>
+<object>PHP</object>
+<tel>84978981</tel>
+<address>长春市</address>
+<e_mail>li**@sina.com</e_mail>
+</employe>
+<employe id='2'>
+<number>1002</number>
+<name>高**</name>
+<object>VB</object>
+<tel>84978981</tel>
+<address>长春市</address>
+<e_mail>gao**@sina.com</e_mail>
+</employe>
+<employe id='3'>
+<number>1003</number>
+<name>李**</name>
+<object>JSP</object>
+<tel>84978981</tel>
+<address>长春市</address>
+<e_mail>li**@mr.com</e_mail>
+</employe>
+
+</employes>

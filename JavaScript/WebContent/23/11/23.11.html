@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>简单过滤器的示例</title>
+<style type="text/css">
+td {
+	font-size: 12px; /*设置单元格的样式*/
+	padding: 3px; /*设置内边距*/
+}
+
+.th {
+	background-color: #F1FAFA; /*设置背景颜色*/
+	font-weight: bold; /*设置文字加粗显示*/
+	text-align: center; /*文字居中对齐*/
+}
+
+.even {
+	background-color: #FFD700; /*设置偶数行的背景颜色*/
+}
+
+.odd {
+	background-color: #FF7F00; /*设置奇数行的背景颜色*/
+}
+
+.light {
+	background: #00A1DA;
+} /*设置鼠标移到行的样式*/
+</style>
+
+<script type="text/javascript" src="JS/jquery-1.6.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("tr:even").addClass("even"); //设置奇数行所用的CSS类
+		$("tr:odd").addClass("odd"); //设置偶数行所用的CSS类
+		$("tr:first").removeClass("even"); //移除even类
+		$("tr:first").addClass("th"); //添加th类
+		$("tbody tr").hover( //为表格主体每行绑定hover方法
+		function() {
+			$(this).addClass("light");
+		}, function() {
+			$(this).removeClass("light");
+		});
+	});
+</script>
+</head>
+<body>
+	<table width="98%" border="0" align="center" cellpadding="0"
+		cellspacing="1" bgcolor="#0099FF">
+		<tr>
+			<td width="7%" height="27">编号</td>
+			<td width="12%">姓名</td>
+			<td width="10%">性别</td>
+			<td width="30%">出生日期</td>
+			<td width="27%">号位</td>
+			<td width="12">次数</td>
+		</tr>
+		<tr>
+			<td height="7">1</td>
+			<td>朱诗漫</td>
+			<td>女</td>
+			<td>19931027</td>
+			<td>老婆一号</td>
+			<td>一天两次</td>
+		</tr>
+		<tr>
+			<td height="7">2</td>
+			<td>杨彬彬</td>
+			<td>女</td>
+			<td>19930415</td>
+			<td>老婆二号</td>
+			<td>一天三次</td>
+		</tr>
+		<tr>
+			<td height="7">3</td>
+			<td>刘莹</td>
+			<td>女</td>
+			<td>19940715</td>
+			<td>老婆三号</td>
+			<td>一天两次</td>
+		</tr>
+		<tr>
+			<td height="7">4</td>
+			<td>徐昕纯</td>
+			<td>女</td>
+			<td>1993</td>
+			<td>老婆四号</td>
+			<td>一天两次</td>
+		</tr>
+		<tr>
+			<td height="7">5</td>
+			<td>何颖颖</td>
+			<td>女</td>
+			<td>19930919</td>
+			<td>老婆五号</td>
+			<td>一天两次</td>
+		</tr>
+		<tr>
+			<td height="7">6</td>
+			<td>林嘉倩</td>
+			<td>女</td>
+			<td>19940418</td>
+			<td>老婆六号</td>
+			<td>一天一次</td>
+		</tr>
+		<tr>
+			<td height="7">7</td>
+			<td>金梦妮</td>
+			<td>女</td>
+			<td>19940615</td>
+			<td>老婆七号</td>
+			<td>一天一次</td>
+		</tr>
+	</table>
+</body>
+</html>

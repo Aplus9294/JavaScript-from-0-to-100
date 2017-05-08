@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>显示选择的文本</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+    <input name="textfield" type="text" onSelect="return Tselect()" value="hello!LiPing.">
+</form>
+<script language="javascript">
+function Tselect()
+{
+	var txt=document.selection.createRange().text;
+	if (txt=="hello!"){
+		alert("你当前所选择的内容为："+txt);}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>获取并设置URL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+  <script language="javascript">
+	<!--		
+		document.write("<b>当前页面的URL:&nbsp;</b>"+document.URL);
+		
+		function setURL(t)
+		{
+			document.URL=t;
+			var u=document.URL;
+			return u;		
+		}
+	-->
+    </script>
+	<p>
+  输入要跳转的页面URL:
+    <input name="titleName"   type="text"><input name="Input" value="跳转" onClick="setURL(titleName.value)" type="button">
+    </p>
+</p>
+</body>
+</html>

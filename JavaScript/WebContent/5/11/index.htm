@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>将只读文件改为可写文件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+  文件路径:
+  <input type="text" name="text1" value="E:\word\JavaScript\qq.txt">
+  <input type="button" name="Button1" value="文件类型" onclick="ShowFileInfo(document.form1.text1.value)">
+</form>
+<script language="javascript">
+<!--
+function ShowFileInfo(filespec){
+	var fso, f, s;
+    fso = new ActiveXObject("Scripting.FileSystemObject");
+	f = fso.GetFile(filespec);
+	switch(f.Attributes)
+	{
+		case 0: s="普通文件";break;
+		case 1: s="只读文件";break;
+		case 2: s="隐藏文件";break;
+		case 4: s="系统文件";break;
+		case 32: s="文件在上次备份后已经修改";break;
+		case 33: s="只读文件(已修改)";break;
+		case 34: s="隐藏文件(已修改)";break;
+		case 128: s="压缩文件";break;
+	}
+	if (f.Attributes==1 || f.Attributes==33)
+	{
+		if (confirm("当前文件为"+s+"\n是否将其改为可写文件"))
+		{
+			f.Attributes=f.Attributes-1;
+		}
+	}
+	else
+		alert("当前文件为:"+s);
+}
+//-->
+</script>
+</body>
+</html>

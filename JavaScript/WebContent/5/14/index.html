@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>应用for…in循环语句输出document对象的属性和值</title>
+</head>
+<body>
+<script language="javascript">
+var object01=document;
+var object02="";
+for(var object03 in object01){
+	object02=object03+"="+object01[object03];
+	document.write(object02+"<br>");
+}
+</script>
+</body>
+</html>

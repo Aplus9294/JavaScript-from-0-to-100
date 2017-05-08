@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>放置目标事件的简单示例</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<table width="330" height="136" border="1">
+  <tr>
+    <td id="td1" align="center" width="165" height="136">
+		<input name="imageField" type="image" src="Temp.JPG" width="150" height="120" border="0">	
+    </td>
+	<td id="td2" align="center" width="165" height="136"
+	   ondragenter="DragObject(event)" 
+       ondragover="DragObject(event)" 
+       ondragleave="DragObject(event)" 
+       ondrop="DragObject(event)">
+    </td>
+  </tr>
+</table>
+<script language="javascript">
+<!--
+function DragObject(Devent)
+{
+	switch(Devent.type) {
+        case "dragover":
+		{
+			document.title="在目标容器范围内进行拖动";
+			break;
+		}
+        case "dragenter":
+		{
+			document.title="进入目标容器范围内";
+			break;
+		}
+        case "dragleave":
+		{
+			document.title="对象离开目标容器";
+			break;		
+		}
+        case "drop":
+		{
+			document.title="在目标容器中放下该对象";
+			break;	
+		}		
+     }
+}
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<html><head><title>窗口自动滚动</title>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+</head>
+<BODY>
+<TABLE height=77 cellSpacing=-2 cellPadding=-2 width=777 align=center border=0>
+        <TR>
+          <TD style="COLOR: #666666" align=center><img src="1.bmp">
+            </TD>
+        </TR></TABLE></TR></TABLE>
+<script language="JavaScript">
+var position = 0;
+function scroller(){
+   if (true){
+     position++;
+     scroll(0,position);
+     clearTimeout(timer);
+     var timer = setTimeout("scroller()",10);
+   }
+}
+scroller();
+</script>
+</BODY></HTML>

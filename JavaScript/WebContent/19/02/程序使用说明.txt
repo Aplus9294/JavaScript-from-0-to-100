@@ -1,0 +1,1 @@
+使用本程序前需要注册ActiveTextBox.ocx

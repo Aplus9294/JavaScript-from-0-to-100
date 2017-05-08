@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>内置函数的应用</title>
+</head>
+
+<body>
+<script type="text/javascript">
+/*
+parseInt()函数
+*/
+var num1="123abc"
+var num2="abc123"
+document.write("（1）使用parseInt()函数<br>");
+document.write("123abc转化结果为:"+parseInt(num1)+"<br>");
+document.write("abc123转化结果为:"+parseInt(num2)+"<br><br>");
+/*
+parseFloat()函数
+*/
+var num3="123.456789abc"
+document.write("（2）使用parseFloat()函数<br>");
+document.write("123.456789abc转化结果为:"+parseFloat(num3)+"<br><br>");
+/*
+isNaN()函数
+*/
+document.write("（3）使用isNaN()函数<br>");
+document.write("123.456789abc转化后是否为NaN:"+isNaN(parseFloat(num3))+"<br>");
+document.write("abc123转化结果后是否为NaN:"+isNaN(parseInt(num2))+"<br><br>");
+/*
+isFinite()函数
+*/
+document.write("（4）使用isFinite()函数<br>");
+document.write("1除以0的结果是否为无穷大："+isFinite(1/0)+"<br><br>");
+/*
+encodeURI()函数
+*/
+document.write("（5）使用encodeURI()函数<br>");
+document.write("转化为网络资源地址为："+encodeURI("http://127.0.0.1/save.html?name=测试")+"<br><br>");
+/*
+decodeURI()函数
+*/
+document.write("（6）使用decodeURI()函数<br>");
+document.write("转化网络资源地址的字符串为："+decodeURI(encodeURI("http://127.0.0.1/save.html?name=测试"))+"<br><br>");
+</script>
+
+</body>
+</html>

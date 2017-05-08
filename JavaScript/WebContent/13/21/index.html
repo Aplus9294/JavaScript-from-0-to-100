@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<style type="text/css">
+</style>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>应用CSS样式控制登录页面</title>
+</head>
+<style>		
+	td {					/*定义表格列中文字样式*/
+		font-size: 9pt;	
+		color: #000000;
+	}
+	.btn_grey {					/*定义控制按钮的类型选择器*/
+	font-family: "宋体";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
+	}
+	input{				/*标签选择器*/
+		font-family: "宋体";
+		font-size: 9pt;
+		color: #3F9
+		border: 1px solid #999999;
+	}
+	body {	/*标签选择器*/
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}	
+</style>
+<body>
+<form id="form1" name="form1" method="post" action="">
+    <p>使用CSS样式设置登录页面样式</p>					<%--定义页头信息--%>
+    <table width="413" height="129" border="1">
+      <tr>
+        <td width="91" align="right">用户名：</td>
+        <td width="306"><div align="left">
+          <label for="textfield2"></label>
+          <input type="text" name="textfield" id="textfield2" />	<%--在页面中定义用户名文本框--%>
+        </div></td>
+      </tr>
+      <tr>
+        <td><div align="right">密码：</div></td>
+        <td><div align="left">
+          <label for="textfield3"></label>
+          <input type="text" name="textfield2" id="textfield3" /><%--在页面中定义密码文本框--%>
+        </div></td>
+      </tr>
+      <tr>
+        <td><div align="right">&nbsp; </div></td>
+        <td><div align="left">
+          <input name="button" type="submit"  id="button" class="btn_grey" value="提交" /><%--在页面中定义提交按钮--%>
+          <input type="reset" name="button2" id="button2" class="btn_grey" value="重置" />
+        </div></td>
+      </tr>
+    </table>
+</form>
+</body>
+</html>

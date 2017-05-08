@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<script language="javascript">
+	var now=new Date();				//获取Date对象的一个实例
+ 	var hour=now.getHours();			//获取小时数
+ 	var minu=now.getMinutes();			//获取分钟数
+	alert("您好！现在是"+hour+":"+minu+"\r欢迎访问本公司网站！");	//弹出提示对话框
+</script>
+</body>
+</html>

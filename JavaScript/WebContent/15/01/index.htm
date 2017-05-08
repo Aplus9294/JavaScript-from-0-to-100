@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>利用WebBrowser打印</title>
+<link href="CSS/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+<object id="WebBrowser" classid="ClSID:8856F961-340A-11D0-A96B-00C04Fd705A2" width="0" height="0">
+</object>
+<table width="650" height="34" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><img src="images/bg.jpg" width="650" height="46"></td>
+  </tr>
+</table>
+<table width="650" border="1" align="center" cellspacing="0" bordercolorlight="#FE7529" bordercolordark="#FFFFFF">
+  <tr align="center" bgcolor="#FE7529">
+    <td height="30">客户名称</td>
+    <td>电话</td>
+    <td >联系人</td>
+    <td>联系人电话</td>
+    <td>E-mail</td>
+    <td>所在地区</td>
+  </tr>
+  <tr>
+    <td height="30">采虹**集团</td>
+    <td>0432-65412**</td>
+    <td>高经理</td>
+    <td>137562112**</td>
+    <td>caihongssss@***.com</td>
+    <td>吉林市</td>
+  </tr>
+  <tr>
+    <td height="30">吉林省明日科技有限公司</td>
+    <td>0431-84972266</td>
+    <td>赛经理</td>
+    <td>137563185**</td>
+    <td>mingrisoft@mingrisoft.com</td>
+    <td>长春市</td>
+  </tr>
+  <tr>
+    <td height="30">鑫***有限公司</td>
+    <td>0431-65412***</td>
+    <td>王经理</td>
+    <td>13756211***</td>
+    <td>qqqqq027@*****.com</td>
+    <td>长春市</td>
+  </tr>
+  <tr>
+    <td height="30">东西南北***通讯公司</td>
+    <td>0434-56167**</td>
+    <td>李经理</td>
+    <td>1375631***4</td>
+    <td>mingrisoft@sina.com</td>
+    <td>四平市</td>
+  </tr>
+</table>
+  <table width="647" align="center">
+      <tr align="center" bgcolor="#FFFFFF">
+    <td height="27" colspan="3" align="right"><a href="#" onClick="webprint(0)">打印预览</a> <a href="#" onClick="webprint(1)">打印</a> <a href="#" onClick="webprint(2)">直接打印</a> </td>
+  </tr>
+</table>
+<script language="javascript">
+<!--
+function webprint(n)
+{
+	switch(n)
+	{
+		case 0:document.all.WebBrowser.Execwb(7,1);break;
+		case 1:document.all.WebBrowser.Execwb(6,1);break;
+		case 2:document.all.WebBrowser.Execwb(6,6);break;
+	}
+}
+//-->
+</script>
+</body>
+</html>

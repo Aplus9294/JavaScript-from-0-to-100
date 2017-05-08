@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>应用名称访问XML文档</title>
+</head>
+<script>
+function get_xml(){
+	var xmldoc,employesNode,employeNode,peopleNode;		//定义变量
+	var nameNode,titleNode,numberNode,displayText;			//定义变量
+ 	xmldoc = new ActiveXObject("Microsoft.XMLDOM"); 		//创建Microsoft解析器实例
+ 	xmldoc.async = false;
+ 	xmldoc.load("index.xml");  							//载入指定的XML文档
+	numberNode=xmldoc.getElementsByTagName("number");	//获取number元素的引用
+	nameNode=xmldoc.getElementsByTagName("name");		//获取name元素的引用
+	objectNode=xmldoc.getElementsByTagName("object");					
+	telNode=xmldoc.getElementsByTagName("tel");
+	//实现字符串的拼接,输出XML文档中的数据
+	displayText="员工信息:"+numberNode(1).firstChild.nodeValue+','+nameNode(1).firstChild.nodeValue+','+objectNode(1).firstChild.nodeValue+','+telNode(1).firstChild.nodeValue;
+	div.innerHTML=displayText; //指定在ID标识为div的<div>标签中输出字符串displayText的信息
+}
+</script>
+<body>
+<h1>应用名称访问XML文档</h1>
+<!--应用onClick事件调用函数get_xml()-->
+<input type="button" value="获取XML中的指定数据" onClick="get_xml()">
+<div id="div"></div>
+</body>
+</html>

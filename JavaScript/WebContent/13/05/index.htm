@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>单元格边框变色</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<table id="table1" width="200">
+  <tr>
+    <td width="60" id="Ttd0">&nbsp;</td>
+    <td width="58" id="Ttd1">箱数</td>
+    <td width="66" id="Ttd2">单价</td>
+  </tr>
+  <tr>
+    <td id="Ttd3">葡萄</td>
+    <td id="Ttd4">50</td>
+    <td id="Ttd5">30</td>
+  </tr>
+  <tr>
+    <td id="Ttd6">菠萝</td>
+    <td id="Ttd7">60</td>
+    <td id="Ttd8">35</td>
+  </tr>
+</table>
+<script language="javascript">
+var tt=true;
+table1.cellSpacing="0";
+table1.border="2";
+function changcolor(){
+	for (var i=0;i<9;i++){
+		if (tt==true){eval("Ttd"+i).borderColor="#00FF00";}
+		if (tt==false){eval("Ttd"+i).borderColor="#6666FF";}
+	}
+	tt=!tt;
+	setTimeout("changcolor()",200);
+}
+changcolor();
+</script>
+</body>
+</html>

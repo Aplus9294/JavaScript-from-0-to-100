@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>函数的返回值</title>
+<script type="text/javascript">
+function setValue(num1,num2,num3){
+	var avg=(num1+num2+num3)/3;						//取3个参数的平均值
+	return avg;										//返回avg变量
+}
+function getValue(num1,num2,num3){
+	document.writeln("参数分别为："+num1+"、"+num2+"、"+num3+"。");
+	var value=setValue(num1,num2,num3);				//调用setValue()函数
+	document.write("取参数平均值，运行结果为："+value);	//在屏幕打印此函数的返回值
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	getValue(60,59,60);								//调用getValue()函数
+</script>
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>提示对话框的应用</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<script> 
+function rdl_doClick(){ 
+var oMessage=document.all("oMessage"); 
+oMessage.value=window.prompt(oMessage.value,"返回的信息"); 
+} 
+</script> 
+<input id=oMessage type=text size=40 value="请在此输入信息"> 
+<br><br> 
+<input type=button value=" 显示对话框 " onclick="rdl_doClick();">
+<body>
+</body>
+</html>

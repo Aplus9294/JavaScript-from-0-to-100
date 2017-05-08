@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>显示指定驱动器的类型及系列号</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+  驱动器名称:
+  <input type="text" name="text1">
+  &nbsp;&nbsp;
+  <input type="button" name="Button1" value="驱动器类型" onclick="dtype(document.form1.text1)">
+</form>
+<script language="javascript">
+function dtype(Drivename)
+{
+	var	fso=new ActiveXObject("Scripting.FileSystemObject");
+	var	s=fso.GetDrive(Drivename.value);
+	var t="",n="";
+	switch(s.DriveType)
+	{
+		case 0: t="找不到该驱动器";break;
+		case 1: t="移动硬盘";break;
+		case 2: t="固定硬盘";break;
+		case 3: t="网络资源";break;
+		case 4: t="CD-ROM";break;
+		case 5: t="RAM";break;
+	}
+	if (s.IsReady)
+		n="系列号为:"+s.SerialNumber;
+	alert(t+"\n"+n);
+}
+</script>
+</body>
+</html>
