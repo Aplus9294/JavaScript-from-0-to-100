@@ -5,8 +5,7 @@
 <title>吉林省明日科技有限公司</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/index.css" rel="stylesheet" type="text/css" />
-<LINK rel=stylesheet type=text/css href="css/base.css">
-</head>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
 <script language="javascript" src="js/AjaxRequest.js"></script>
 <script language="javascript">
 /******************错误处理的方法*******************************/
@@ -15,7 +14,7 @@ function onerror(){
 }
 /******************实例化Ajax对象的方法*******************************/
 function getInfo(){
-	var loader=new net.AjaxRequest("check.php?nocache="+new Date().getTime(),deal_getInfo,onerror,"GET");
+	var loader=new net.AjaxRequest("check.html?nocache="+new Date().getTime(),deal_getInfo,onerror,"GET");
 }
 /************************回调函数**************************************/
 function deal_getInfo(){
@@ -26,6 +25,7 @@ window.onload=function(){
 	window.setInterval("getInfo()", 600000);	//每隔10分钟调用一次getInfo()方法
 }
 </script>
+</head>
 <body>
 	<div class="cen">
 		<div class="c01">
@@ -84,7 +84,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 									<td width="#" height="42" align="center" id="a0bg"><span
 										id="a0color"
 										onmouseover='showadv(&quot;a0&quot;,&quot;a0color&quot;,&quot;a0bg&quot;)'><a
-											href="index.php"><font color="#FA4A05">首页</font></a></span></td>
+											href="index.html"><font color="#FA4A05">首页</font></a></span></td>
 									<td width="1"><img src="img/i14.gif" width="1" height="25" /></td>
 									<td id="a1bg" align="center" width="144"><span
 										id="a1color"
@@ -115,14 +115,15 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 						</div></td>
 				</tr>
 				<tr>
-					<td><table width="100%" height="41" cellpadding="0"
-							cellspacing="0" id="a0" 　border="0">
+					<td>
+						<table width="100%" style="height: 41;" cellpadding="0"
+							cellspacing="0" id="a0" border="0">
 							<tr>
 								<td align="left" style="padding-left: 12px">欢迎来到吉林省明日科技有限公司</td>
 							</tr>
 						</table>
-						<table id="a1" style="DISPLAY: none" height="41" cellspacing="0"
-							cellpadding="0" width="100%" border="0">
+						<table id="a1" style="DISPLAY: none" style="height:41;"
+							cellspacing="0" cellpadding="0" width="100%" border="0">
 							<tr>
 								<td style="padding-left: 90px" align="left"><ul
 										class="i02w">
@@ -132,8 +133,8 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 									</ul></td>
 							</tr>
 						</table>
-						<table id="a2" style="DISPLAY: none" height="41" cellspacing="0"
-							cellpadding="0" width="100%" border="0">
+						<table id="a2" style="DISPLAY: none" style="height:41;"
+							cellspacing="0" cellpadding="0" width="100%" border="0">
 							<tr>
 								<td style="padding-left: 270px" align="left"><ul
 										class="i02w">
@@ -142,20 +143,20 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 									</ul></td>
 							</tr>
 						</table>
-						<table id="a3" style="DISPLAY: none" height="41" cellspacing="0"
-							cellpadding="0" width="100%" border="0">
+						<table id="a3" style="DISPLAY: none" style="height:41;"
+							cellspacing="0" cellpadding="0" width="100%" border="0">
 							<tr>
 								<td style="padding-left: 12px">欢迎来到吉林省明日科技有限公司</td>
 							</tr>
 						</table>
-						<table id="a4" style="DISPLAY: none" height="41" cellspacing="0"
-							cellpadding="0" width="100%" border="0">
+						<table id="a4" style="DISPLAY: none" style="height:41;"
+							cellspacing="0" cellpadding="0" width="100%" border="0">
 							<tr>
 								<td style="padding-left: 12px">欢迎来到吉林省明日科技有限公司</td>
 							</tr>
 						</table>
-						<table id="a5" style="DISPLAY: none" height="41" cellspacing="0"
-							cellpadding="0" width="100%" border="0">
+						<table id="a5" style="DISPLAY: none" style="height:41;"
+							cellspacing="0" cellpadding="0" width="100%" border="0">
 							<tr>
 								<td style="padding-right: 10px"><ul class="i03w">
 										<li>联系我们</li>
@@ -164,65 +165,66 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 										<li>友情链接</li>
 									</ul></td>
 							</tr>
-						</table></td>
+						</table>
+					</td>
 				</tr>
 			</table>
 		</div>
 		<div class="i02">
-			<DIV class=banner>
-				<DIV id=ImageCyclerImage>
-					<A href="#"><IMG alt="IDP Videos" src="img/hero6.jpg"></A>
-				</DIV>
-				<DIV id=ImageCyclerOverlay class=grey>
-					<DIV id=ImageCyclerOverlayBackground></DIV>
-					<P class=title>宁波展会</P>
-					<P>
-						讲解人员正在细心的为读者介绍产品<A href="#">Find out more &gt;</A>
-					</P>
-				</DIV>
-				<DIV id=ImageCyclerTabs>
-					<div id=mg>
-						<A href="#"><img src="img/mg.png" width="95" height="43"></A>
+			<div class="banner">
+				<div id="ImageCyclerImage">
+					<a href="#"><img alt="IDP Videos" src="img/hero6.jpg" /></a>
+				</div>
+				<div id="ImageCyclerOverlay" class="grey">
+					<div id="ImageCyclerOverlayBackground"></div>
+					<p class="title">宁波展会</p>
+					<p>
+						讲解人员正在细心的为读者介绍产品<a href="#">Find out more &gt;</a>
+					</p>
+				</div>
+				<div id="ImageCyclerTabs">
+					<div id="mg">
+						<a href="#"><img src="img/mg.png" width="95" height="43" /></a>
 					</div>
-					<div id=jnd>
-						<A href="#"><img src="img/jnd.png" width="95" height="43"></A>
+					<div id="jnd">
+						<a href="#"><img src="img/jnd.png" width="95" height="43" /></a>
 					</div>
-					<div id=yg>
-						<A href="#"><img src="img/yg.png" width="95" height="43"></A>
+					<div id="yg">
+						<a href="#"><img src="img/yg.png" width="95" height="43" /></a>
 					</div>
-					<div id=dg>
-						<A href="#"><img src="img/dg.png" width="95" height="43"></A>
+					<div id="dg">
+						<a href="#"><img src="img/dg.png" width="95" height="43" /></a>
 					</div>
-					<div id=fg>
-						<A href="#"><img src="img/hg.png" width="142" height="43"></A>
+					<div id="fg">
+						<a href="#"><img src="img/hg.png" width="142" height="43" /></a>
 					</div>
-				</DIV>
+				</div>
 				<div id="Layer1">
-					<div id=hg>
-						<A href="#"><img src="img/fg.png" width="95" height="43"
-							align="right"></A>
+					<div id="hg">
+						<a href="#"><img src="img/fg.png" width="95" height="43"
+							align="right" /></a>
 					</div>
-					<div id=rb>
-						<A href="#"><img src="img/rb.png" width="95" height="47"
-							align="right"></A>
+					<div id="rb">
+						<a href="#"><img src="img/rb.png" width="95" height="47"
+							align="right" /></a>
 					</div>
-					<div id=xjp>
-						<A href="#"><img src="img/xjp.png" width="95" height="43"
-							align="right"></A>
+					<div id="xjp">
+						<a href="#"><img src="img/xjp.png" width="95" height="43"
+							align="right" /></a>
 					</div>
-					<div id=odly>
+					<div id="odly">
 						<a href="#"><img src="img/odly.png" width="95" height="43"
 							align="right" /></a>
 					</div>
-					<div id=qt>
+					<div id="qt">
 						<a href="#"><img src="img/qt.png" width="95" height="43"
 							align="right" /></a>
 					</div>
 				</div>
-			</DIV>
+			</div>
 		</div>
-		<SCRIPT type=text/javascript src="js/jquery.js"></SCRIPT>
-		<SCRIPT type=text/javascript>(function($) {
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">(function($) {
 					$.slider = function(opts, data) {
 						this.currentSlide = 0;
                         this.opts = opts;
@@ -304,7 +306,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
                             ]
 							);
                 });
-            </SCRIPT>
+            </script>
 		<div class="i03">
 			<div class="i03l">
 				<div>
@@ -334,9 +336,9 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 					</p>
 				</div>
 				<div id="layout">
-					<marquee direction="up" scrollamount="3" style="height:307px; ">
+					<!-- marquee direction="up" scrollamount="3" style="height:307px; ">
 					<div id="showInfo"></div>
-					</marquee>
+					</marquee-->
 				</div>
 			</div>
 			<div class="i03r">
@@ -355,12 +357,12 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 					<img src="img/i09.gif" width="268" height="31" />
 				</div>
 				<div class="i05">
-					<table width="250" height="20" border="0" cellpadding="0"
+					<table width="250" style="height: 20;" border="0" cellpadding="0"
 						cellspacing="0">
 						<tr>
 							<td width="22"><a
-								href=javascript:window.external.AddFavorite(
-								'http://www.mingrisoft.com','吉林省明日科技有限公司')><img
+								href="javascript:window.external.AddFavorite(
+								'http://www.mingrisoft.com','吉林省明日科技有限公司')"><img
 									src="img/b_01.gif" width="22" height="20" border="0"
 									onmouseover="this.src='img/c_01.gif'"
 									onmouseout="this.src='img/b_01.gif'" /></a></td>
@@ -398,38 +400,38 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 					</table>
 				</div>
 				<div class="i04">
-					<table width="209" height="136" border="0" cellpadding="0"
+					<table width="209" style="height: 136;" border="0" cellpadding="0"
 						cellspacing="0">
 						<tr>
-							<td align="center" valign="bottom" background="img/i08.gif"><table
+							<td align="center" valign="bottom" style=""><table
 									width="90%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="24" align="left" valign="top" class="bai">MR全球网络</td>
 									</tr>
 									<tr>
-										<form>
-											<td height="35" align="left" valign="top"><select
-												name="select" style="width: 190px;"
-												onchange="javascript:window.open(this.options[this.selectedIndex].value)">
-													<option>选择国家</option>
-													<option value="">美国</option>
-													<option value="">加拿大</option>
-													<option value="">英国</option>
-													<option value="">德国</option>
-													<option value="">法国</option>
-													<option value="">日本</option>
-													<option value="">新加坡</option>
-													<option value="">澳大利亚</option>
-													<option value="">新西兰</option>
-													<option value="">意大利</option>
-													<option value="">西班牙</option>
-													<option value="">丹麦</option>
-													<option value="">马来西亚</option>
-													<option value="">荷兰</option>
-													<option value="">爱尔兰</option>
-													<option value="">瑞典</option>
-											</select></td>
-										</form>
+
+										<td style="height: 35;" align="left" valign="top"><select
+											name="select" style="width: 190px;"
+											onchange="javascript:window.open(this.options[this.selectedIndex].value)">
+												<option>选择国家</option>
+												<option value="">美国</option>
+												<option value="">加拿大</option>
+												<option value="">英国</option>
+												<option value="">德国</option>
+												<option value="">法国</option>
+												<option value="">日本</option>
+												<option value="">新加坡</option>
+												<option value="">澳大利亚</option>
+												<option value="">新西兰</option>
+												<option value="">意大利</option>
+												<option value="">西班牙</option>
+												<option value="">丹麦</option>
+												<option value="">马来西亚</option>
+												<option value="">荷兰</option>
+												<option value="">爱尔兰</option>
+												<option value="">瑞典</option>
+										</select></td>
+
 									</tr>
 								</table></td>
 						</tr>
@@ -444,29 +446,30 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 		<div>
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<form>
-						<td height="44" align="right" background="img/i10.gif"><input
-							name="textfield" type="text"
-							style="border: solid 1px #CFCECE; width: 150px; height: 18px; color: #A3A2A2"
-							value="中文或英文" /> <input type="image" name="Submit" value="提交"
-							src="img/i11.gif" width="69" height="22" align="absmiddle" /> <a
-							href="#" target="_blank"><img src="img/ia11.gif" width="69"
-								height="22" border="0" align="absmiddle" /></a></td>
-					</form>
+
+					<td style="height: 44;" align="right"
+						style="background-image: img/i10.gif"><input name="textfield"
+						type="text"
+						style="border: solid 1px #CFCECE; width: 150px; height: 18px; color: #A3A2A2"
+						value="中文或英文" /> <input type="image" name="Submit" value="提交"
+						src="img/i11.gif" style="width: 69; height: 22;" align="middle" />
+						<a href="#" target="_blank"><img src="img/ia11.gif" width="69"
+							height="22" border="0" align="middle" /></a></td>
+
 				</tr>
 			</table>
 		</div>
 		<div class="i04">
-			<TABLE width="868" align=center>
-				<TR>
-					<TD><div id=demo
+			<table width="868" align="center">
+				<tr>
+					<td><div id="demo"
 							style="BACKGROUND: #ffffff; OVERFLOW: hidden; WIDTH: 868px; HEIGHT: 264px">
 							<table width="100%" cellpadding="0" cellspacing="0">
 								<tr>
-									<td id=demo1><table width=100% align=center
+									<td id="demo1"><table width="100%" align="center"
 											cellpadding="0" cellspacing="0">
 											<tr>
-												<td width=160 height=132 align=middle valign="top"
+												<td width="160" height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -475,7 +478,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td width=160 height=132 align=middle valign="top"
+												<td width="160" height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -484,7 +487,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td width=160 height=132 align=middle valign="top"
+												<td width="160" height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -493,7 +496,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td width=160 height=132 align=middle valign="top"
+												<td width="160" height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -502,7 +505,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td width=160 height=132 align=middle valign="top"
+												<td width="160" height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="#"><img src="img/biao2.gif" width="160"
 															height="70" border="0" /></a>
@@ -512,7 +515,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 													</div></td>
 											</tr>
 											<tr>
-												<td height="132" align="middle" valign="top"
+												<td height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -521,7 +524,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td height="132" align="middle" valign="top"
+												<td height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -530,7 +533,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td height="132" align="middle" valign="top"
+												<td height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -539,7 +542,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td height="132" align="middle" valign="top"
+												<td height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="http://www.mrbccd.com" target="_blank"><img
 															src="img/biao.gif" width="160" height="70" border="0" /></a>
@@ -548,7 +551,7 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 														<a href="http://www.mrbccd.com" target="_blank">编程词典</a><br />
 														<a href="http://www.mrbccd.com" target="_blank">MRBCCD</a>
 													</div></td>
-												<td height="132" align="middle" valign="top"
+												<td height="132" align="center" valign="top"
 													style="padding-right: 10px"><div class="i07">
 														<a href="#"><img src="img/biao2.gif" width="160"
 															height="70" border="0" /></a>
@@ -558,10 +561,10 @@ document.getElementById(par3).style.backgroundImage = "url(img/i13.gif)";
 													</div></td>
 											</tr>
 										</table></td>
-									<td id=demo2></td>
+									<td id="demo2"></td>
 								</tr>
 							</table>
-						</div> <SCRIPT>
+						</div> <script>
 var speed=30
 demo2.innerHTML=demo1.innerHTML
 function Marquee(){
@@ -574,15 +577,15 @@ demo.scrollLeft++
 var MyMar=setInterval(Marquee,speed)
 demo.onmouseover=function() {clearInterval(MyMar)}
 demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
-</SCRIPT></TD>
-				</TR>
-			</TABLE>
+</script></td>
+				</tr>
+			</table>
 		</div>
 		<div style="padding-top: 15px">
 			<iframe frameborder="0" height="95" id="top" name="top"
-				scrolling="No" src="inc/lxbom.html" width="872"></iframe>
+				scrolling="no" src="inc/lxbom.html" width="872"></iframe>
 		</div>
 	</div>
-	<SCRIPT type=text/javascript src="js/floatdiv.js"></SCRIPT>
+	<script type="text/javascript" src="js/floatdiv.js"></script>
 </body>
 </html>
