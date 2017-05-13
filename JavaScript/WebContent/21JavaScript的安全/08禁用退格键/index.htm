@@ -3,17 +3,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>屏蔽Ctrl+N按键</title>
+<title>屏蔽退格键</title>
 <script language=javascript>
 function keydown(){
-	if((event.ctrlKey)&&(event.keyCode==78)){
-	   event.returnValue=false;
-	   alert("当前设置不允许使用Ctrl+n新建IE窗口");
+	if(event.keyCode==8){
+		event.keyCode=0;
+		event.returnValue=false;
+		alert("当前设置不允许使用退格键");
 	  }
 }
 </script>
 </head>
-
 <body onkeydown="keydown()">
 <table width="547" height="490" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
