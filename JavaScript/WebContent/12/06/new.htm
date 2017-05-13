@@ -19,8 +19,7 @@ body {
 }
 -->
 </style>
-</head>
-<script language="javascript">
+<script>
 function Mycheck()
 {
 alert("关闭子窗口！");
@@ -28,13 +27,15 @@ window.opener.location.reload();  //刷新父窗口中的网页
 window.close();//关闭当前窗窗口
 }
 </script>
+</head>
+
 <body>
-<table width="400" height="224" border="0" align="center" cellpadding="0" cellspacing="0">
+<table style="height: 224;width: 400;border: 0">
   <tr>
     <td height="17" bgcolor="#9A3334"><div align="center" class="style1">添加会议记录信息</div></td>
   </tr>
   <tr>
-    <td height="192"><table width="373" height="167" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td height="192"><table style="height: 167;width: 373;border: 0">
       <tr>
         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style3">会议标题: 2008年新工作任务具体的分配以及工作要求</span></td>
       </tr>
@@ -43,7 +44,7 @@ window.close();//关闭当前窗窗口
       </tr>
       <tr>
         <td><div align="right">
-          <input type="submit" name="Submit" value="关闭" onclick="Mycheck();">
+          <input type="submit" name="Submit" value="关闭" onclick="Mycheck();"/>
         </div></td>
       </tr>
     </table></td>

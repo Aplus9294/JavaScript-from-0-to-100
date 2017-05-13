@@ -5,34 +5,28 @@
 <title>网页加载时缩小图片</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
-
 <body onunload="pclose()">
-<img src="image1.jpg" name="img1" onload="blowup(this)" onmouseout="blowup()" onmouseover="reduce()">
-<script language="javascript">
-<!--
-var h=img1.height;
-var w=img1.width;
-function blowup()
-{
-	if (img1.height>=h)
-	{
-		img1.height=h-100;
-		img1.width=w-100;
-	}
-}
-function reduce()
-{
-	if (img1.height<h)
-	{
-		img1.height=h;
-		img1.width=w;
-	}
-}
-function pclose()
-{
-	alert("欢迎浏览本网页");
-}
-//-->
-</script>
+	<img src="image1.jpg" name="img1" onmouseout="blowup()"
+		onmouseover="reduce()">
+	<!-- onload="blowup(this)" -->
+	<script language="javascript">
+		var h = img1.height;
+		var w = img1.width;
+		function blowup() {
+			if (img1.height >= h) {
+				img1.height = h - 100;
+				img1.width = w - 100;
+			}
+		}
+		function reduce() {
+			if (img1.height < h) {
+				img1.height = h;
+				img1.width = w;
+			}
+		}
+		function pclose() {
+			alert("欢迎浏览本网页");
+		}
+	</script>
 </body>
 </html>

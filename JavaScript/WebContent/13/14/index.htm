@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<table width="433" border="2" align="center" cellpadding="3" cellspacing="4" bordercolor="#006699" bgcolor="#FFFFFF">
+<table style="width: 433;border: 2;border-color:#006699;background-color: #FFFFFF ">
   <tr>
     <td colspan="2"><div align="center"><font color="#FF0000" size="6">水平翻转</font></div></td>
   </tr>
@@ -30,14 +30,14 @@
   </tr>
 </table>
 <p>
-<center>
-<input type="button" name="button1" value="水平翻转" onClick="Hturn()">
+
+<input type="button" name="button1" value="水平翻转" onClick="Hturn()"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="button" name="button2" value="垂直翻转" onClick="Vturn()">
-</center>
+<input type="button" name="button2" value="垂直翻转" onClick="Vturn()"/>
+
 </p>
 
-<script language="javascript">
+<script>
 function Hturn()//水平翻转
 {
 	image11.style.filter = image11.style.filter =="fliph"?"":"fliph";

@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title>使用XML DOM对象读取XML文件</title>
-<script language="javascript">
+<script>
 function readXML() {
 	var url = "index.xml";
 	if(window.ActiveXObject) {      //IE
@@ -21,7 +21,7 @@ function readXML() {
 	}
 }
 </script>
-<script language="javascript">
+<script>
 function createTable(xmldoc) {
 	var table = document.createElement("table");
 	table.setAttribute("width","100%");
@@ -60,7 +60,7 @@ function createTable(xmldoc) {
 </head>
 
 <body onLoad="readXML()">
-<table width="777" height="482"  border="0" align="center" cellpadding="0" cellspacing="0" background="images/bg.jpg">
+<table style="width: 777;height:482;border:0;background-image: images/bg.jpg">
   <tr>
     <td width="204" height="229" valign="top">&nbsp;</td>
     <td width="551" height="229" valign="top">&nbsp;</td>

@@ -3,8 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title>移动的窗口</title>
 </head>
-<body onresize=resizeTo(300,300)>
-<script language="JavaScript">
+<script>
 window.resizeTo(300,300)
 window.moveTo(0,0)
 inter=setInterval("go()", 1);
@@ -35,7 +34,9 @@ function go()
 	}
 	catch(e){}
 }
-</script> 
+</script>
+<body onresize=resizeTo(300,300)>
+ 
 会自动移动的窗口
 </body>
 </html>

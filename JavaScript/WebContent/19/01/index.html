@@ -4,21 +4,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <title>修改applet显示文本</title>
 <script language="javascript">
-	<!--
-		function setAppletTxt()
-		{
-			var sApplet=document.getElementById("testApplet");
-			var txtValue=document.getElementById("txt");
-			sApplet.setTxt(txtValue.value);
-		}
+<!--
+	function setAppletTxt() {
+		var sApplet = document.getElementById("testApplet");
+		var txtValue = document.getElementById("txt");
+		sApplet.setTxt(txtValue.value);
+	}
 	-->
 </script>
 </head>
 <body>
-<object border="1" type="application/x-java-applet" width="100" height="100" code="ExampleApplet.class" id="testApplet">
-您的浏览器不支持！
-</object><br>
-输入applet显示内容：<input type="text" id="txt" size="10" /><br>
-<input type="button" value="修改applet显示内容" onclick="setAppletTxt()" />
+	<object border="1" type="application/x-java-applet" width="100"
+		height="100"  id="testApplet">
+		您的浏览器不支持！ </object><!-- code="ExampleApplet.class" -->
+	<br /> 输入applet显示内容：
+	<input type="text" id="txt" size="10" />
+	<br />
+	<input type="button" value="修改applet显示内容" onclick="setAppletTxt()" />
 </body>
 </html>
