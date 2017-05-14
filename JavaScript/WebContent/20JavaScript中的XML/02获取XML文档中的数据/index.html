@@ -2,7 +2,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title>通过JavaScript读取XML文档中的数据</title>
-</head>
 <script>
 function get_xml(){
 	var xmldoc,employesNode,employeNode,peopleNode;		//定义变量
@@ -21,10 +20,11 @@ function get_xml(){
 	div.innerHTML=displayText;   	//指定在ID标识为div的<div>标签中输出字符串displayText的信息
 }
 </script>
+</head>
 <body>
 <h1>获取XML文档中的数据</h1>
 <!--应用onClick事件调用函数get_xml()-->
-<input type="button" value="获取XML中的指定数据" onClick="get_xml()">
+<input type="button" value="获取XML中的指定数据" onclick="get_xml()">
 <br>
 <br>
 <div id="div"></div>
