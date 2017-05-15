@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.2800.1264" name=GENERATOR>
+<title>无间断的图片循环滚动效果</title>
+</head>
+<body
+	style="margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0">
+	<table
+		style="border: 0; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; cellSpacing: 0; cellPadding: 0; width: 100%; align: center;">
+		<tr>
+			<td>
+				<div id=div1 style="OVERFLOW: hidden; WIDTH: 100%; COLOR: #ffffff">
+					<table>
+						<tr>
+							<td id=td1 valign=top>
+								<table>
+									<tr style="width: 100%;" height="89">
+										<td width="110" background="1.jpg"></td>
+										<td width="110" background="2.jpg"></td>
+										<td width="110" background="3.jpg"></td>
+										<td width="110" background="4.jpg"></td>
+										<td width="110" background="5.jpg"></td>
+										<td width="110" background="6.jpg"></td>
+										<td width="110" background="7.jpg"></td>
+										<td width="110" background="8.jpg"></td>
+										<td width="110" background="9.jpg"></td>
+										<td width="110" background="10.jpg"></td>
+										<td width="110" background="11.jpg"></td>
+										<td width="110" background="12.jpg"></td>
+									</tr>
+								</table>
+							</td>
+							<td id=td2 valign=top>&nbsp;</td>
+						</tr>
+					</table>
+				</div> <script>
+					var n = 5
+					//数值越大图片滚动的越快
+					td2.innerHTML = td1.innerHTML
+					var Mycheck;
+					function move() {
+						if (td2.offsetWidth - div1.scrollLeft <= 0)
+							div1.scrollLeft -= td1.offsetWidth
+						else {
+							div1.scrollLeft++
+						}
+						Mycheck = setTimeout(move, n)
+					}
+					div1.onmouseover = function() {
+						clearTimeout(Mycheck)
+					}
+					div1.onmouseout = function() {
+						Mycheck = setTimeout(move, n)
+					}
+					move();
+				</script>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
