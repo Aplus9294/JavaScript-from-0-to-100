@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>网页加载时缩小图片</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<script language="javascript">
+			var h = img1.height;
+			var w = img1.width;
+
+			function blowup() {
+				if(img1.height >= h) {
+					img1.height = h - 100;
+					img1.width = w - 100;
+				}
+			}
+
+			function reduce() {
+				if(img1.height < h) {
+					img1.height = h;
+					img1.width = w;
+				}
+			}
+
+			function pclose() {
+				alert("欢迎浏览本网页");
+			}
+		</script>
+	</head>
+
+	<body onunload="pclose()">
+		<img src="image1.jpg" name="img1" onload="blowup()" onmouseout="blowup()" onmouseover="reduce()">
+
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<title>获取文本框并修改其内容</title>
+	</head>
+
+	<body>
+		<script>
+			function c1() {
+				var t = document.getElementById("txt");
+				t.value = "修改文本内容"
+			}
+		</script>
+		<input type="text" id="txt" value="初始文本内容" />
+		<input type="button" value="更改文本内容" name="btn" onclick="c1();" />
+	</body>
+
+</html>

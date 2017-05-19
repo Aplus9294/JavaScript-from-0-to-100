@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>创建临时文件</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	</head>
+
+	<body>
+		<script language="javascript">
+			var fso, tempfile;
+			fso = new ActiveXObject("Scripting.FileSystemObject");
+
+			function CreateTempFile() {
+				var tfolder, tfile, tname, fname, TemporaryFolder = 2;
+				tfolder = fso.GetSpecialFolder(TemporaryFolder);
+				tname = fso.GetTempName();
+				tfile = tfolder.CreateTextFile(tname);
+				return tfile;
+			}
+			tempfile = CreateTempFile();
+			tempfile.close();
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>将文件进行复制、删除或移除的操作</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	</head>
+
+	<body>
+		<table width="341" border="1">
+			<tr>
+				<td width="331" height="50">
+					<form name="form1" method="post" action="">
+						<p>
+							原文件路径：&nbsp;&nbsp;
+							<input type="text" name="text1" value="E:\word\JavaScript\qq.txt">
+						</p>
+						<p>
+							目的文件路径：
+							<input type="text" name="text2" value="E:\Destination\hh.txt">
+							<input type="button" name="Button" value="复制" onclick="filecopy(document.form1.text1,document.form1.text2)">
+						</p>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td height="28">
+					<form name="form2" method="post" action="">
+						文件路径：
+						<input type="text" name="text3" value="E:\Destination\hh.txt">
+						<input type="button" name="Button" value="删除" onclick="filedelete(document.form2.text3.value)">
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td height="88">
+					<form name="form3" method="post" action="">
+						<p>原文件路径：&nbsp;&nbsp;
+							<input type="text" name="text4" value="E:\word\JavaScript\qq.txt">
+						</p>
+						<p>目的文件路径：
+							<input type="text" name="text5" value="E:\Destination\hh.txt">
+							<input type="button" name="Submit2" value="移除" onClick="filemove(document.form3.text4.value,document.form3.text5.value)">
+						</p>
+					</form>
+				</td>
+			</tr>
+		</table>
+		<script language="javascript">
+			<!--
+			function filecopy(sname, dname) {
+				var fso, f;
+				fso = new ActiveXObject("Scripting.FileSystemObject");
+				f = fso.GetFile(sname.value);
+				f.Copy(dname.value);
+				alert("文件复制成功");
+			}
+
+			function filedelete(fname) {
+				var fso, f;
+				fso = new ActiveXObject("Scripting.FileSystemObject");
+				f = fso.GetFile(fname);
+				f.Delete();
+				alert("文件删除成功");
+			}
+
+			function filemove(fname, mname) {
+				var fso, f;
+				fso = new ActiveXObject("Scripting.FileSystemObject");
+				f = fso.GetFile(fname);
+				f.Move(mname);
+				alert("文件移除成功");
+			}
+			//-->
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a971c94a-3534-4fd4-bc82-29275f6ca1f2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/01/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/02/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/02/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/03/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/04/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/01/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/02/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/03/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/04/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/05/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/06/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/07/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/02/09/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/06/functiondate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/03/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/04/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/01/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/01/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/01/index_ok.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/images/reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/04/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/04/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/05/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/05/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/05/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/05/images/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/06/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/07/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/08/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/09/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/10/CSS/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/10/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/10/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/10/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/10/程序使用说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/11/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/12/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/13/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/14/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/15/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/16/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/17/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/18/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/19/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/20/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/05/21/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Entries.Extra" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Entries.Extra.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Entries.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Repository" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/CVS/Root" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/CSS/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Entries.Extra" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Entries.Extra.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Entries.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Repository" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/CVS/Root" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Entries.Extra" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Entries.Extra.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Entries.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Repository" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/CVS/Root" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/PSD/注册页面.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/button.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/clear.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/color.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Entries.Extra" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Entries.Extra.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Entries.Old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Repository" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/CVS/Root" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/head/undefined.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/no.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/result.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/Images/temp.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/06/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/07/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/08/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/01/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/02/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/03/Index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/03/Temp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/04/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/05/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/05/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/05/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/06/images/reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/06/images/top_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/06/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/07/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/07/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/08/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/08/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/09/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/10/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/11/bg.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/11/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/12/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/13/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/14/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/15/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/16/Temp.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/16/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/16/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/17/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/09/18/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/01/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/02/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/03/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/04/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/04/个人主页主页.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/05/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/06/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/07/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/08/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/08/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/08/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/09/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/10/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/12/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/10/12/pic7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/06/innert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/09/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/11/13/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/WebContent/13/16/index.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/13/16/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/01/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/01表单页面文字域/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/02/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/02表单页面密码域/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/03/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/03/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/04/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/04/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/05/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/05/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/06/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/06/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/07/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/07/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/08/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/08/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/09/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/09/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/10/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/10/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_02.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_06.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_06.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_08.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_08.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_09.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_09.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/dl_10.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/dl_10.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/images/分隔符.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/images/分隔符.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/11/index.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/11/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_02.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_06.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_06.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/images/zc_08.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/images/zc_08.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/12/index.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/12/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/13/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/13/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/14/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/14/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Entries" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Entries" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Entries.Extra" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Entries.Extra" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Entries.Extra.Old" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Entries.Extra.Old" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Entries.Old" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Entries.Old" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Repository" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Repository" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/CVS/Root" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/CVS/Root" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/chongxie.bmp" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/chongxie.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/denglu.bmp" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/denglu.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/login.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/login.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/pic.bmp" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/pic.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/rs.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/rs.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/14/images/照片.bmp" afterPath="$PROJECT_DIR$/JavaScript/WebContent/14表单和表单元素/images/照片.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/CSS/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/CSS/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/content.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/content.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/images/bg.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/images/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/images/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/index.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/01/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/01/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/CSS/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/CSS/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/content.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/content.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/images/bg.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/images/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/images/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/index.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/02/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/02/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/03/CSS/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/03/CSS/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/03/images/bg.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/03/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/03/images/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/03/images/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/03/index.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/03/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/04/CSS/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/04/CSS/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/04/images/bg.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/04/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/04/images/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/04/images/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/04/index.htm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/04/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/checkindex.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/checkindex.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/conn/conn.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/conn/conn.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/css/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/db.opt" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/db.opt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_book.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_book.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_book.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_book.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_book.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_book.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_brand.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_brand.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_brand.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_brand.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_brand.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_brand.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_pay.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_pay.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_pay.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_pay.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_pay.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_pay.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_stock.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_stock.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_stock.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_stock.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_stock.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_stock.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_telcost.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_telcost.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_telcost.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_telcost.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_telcost.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_telcost.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_user.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_user.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_user.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_user.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/db_database03/tb_user.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/db_database03/tb_user.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/images/01_01.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/images/01_01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/images/01_02.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/images/01_02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/images/01_07.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/images/01_07.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/images/01_08.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/images/01_08.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/images/Thumbs.db" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/05/index.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/05/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/conn/conn.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/conn/conn.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/css/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/db.opt" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/db.opt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_book.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_book.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_book.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_book.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_book.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_book.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_brand.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_brand.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_brand.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_brand.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_brand.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_brand.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_pay.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_pay.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_pay.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_pay.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_pay.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_pay.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_stock.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_stock.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_stock.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_stock.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_stock.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_stock.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_telcost.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_telcost.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_telcost.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_telcost.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_telcost.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_telcost.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_user.MYD" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_user.MYD" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_user.MYI" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_user.MYI" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/db_database03/tb_user.frm" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/db_database03/tb_user.frm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/images/Thumbs.db" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/images/image_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/images/image_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/images/image_02.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/images/image_02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/images/image_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/images/image_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/15/06/index.php" afterPath="$PROJECT_DIR$/JavaScript/WebContent/15页面打印/06/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/1.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/2.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/3.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/CSS/sheet.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/CSS/sheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/Mymouse.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/Mymouse.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/01/博客用户注册.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/01Cookie的写入/博客用户注册.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/1.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/2.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/3.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/4.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/4.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/CSS/sheet.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/CSS/sheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/Mymouse.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/Mymouse.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/02/博客用户注册.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/02Cookie的读取/博客用户注册.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/03/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/03删除Cookie/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/04/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/04/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/16/05/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/16使用Cookie/05/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/answer_online.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/answer_online.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/check.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/check.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/css/base.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/css/base.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/css/index.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/css/style.css" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/gyld.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/gyld.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/gyld_xiang.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/gyld_xiang.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/aa.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/aa.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_09.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_09.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_11.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_11.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/b_13.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/b_13.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/biao.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/biao.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/biao2.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/biao2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/bm.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/bm.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/bm1.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/bm1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_09.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_09.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_11.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_11.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/c_13.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/c_13.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/column_image.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/column_image.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dg.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dg01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dg01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dg1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dian.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dian.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dianh.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dianh.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/dianz.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/dianz.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/fg.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/fg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/fg01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/fg01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/fg1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/fg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_02.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_04.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_05.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_08.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_08.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_09.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_09.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_10.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_10.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_11.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_11.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_12.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_13.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_13.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_14.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_14.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_15.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_15.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_16.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_16.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_17.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_19.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_19.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_20.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_20.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_21.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_21.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/gy_22.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/gy_22.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hero1.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hero1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hero10.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hero10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hero5.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hero5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hero6.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hero6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hero7.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hero7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hg.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hg1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hg2.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hg2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/hot4.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/hot4.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i01.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i02.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i06.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i06.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i08.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i08.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i09.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i09.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i10.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i10.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i11.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i11.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i12.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i12.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i13.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i13.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/i14.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/i14.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ia11.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ia11.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jnd.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jnd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jnd01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jnd01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jnd1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jnd1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_01.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_02.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/jr_06.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/jr_06.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ld.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ld.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ld1.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ld1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/link_huodong.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/link_huodong.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/mg.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/mg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/mg01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/mg01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/mg1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/mg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/more9.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/more9.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_01.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_02.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_03.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_06.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_06.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/o_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/o_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/odly.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/odly.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/odly01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/odly01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/odly1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/odly1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic1.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic3.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic4.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic5.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic6.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/pic7.jpg" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/pic7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/qt.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/qt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/qt01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/qt01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/qt1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/qt1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_02.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_03.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_03.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_04.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_04.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_05.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_05.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/ra_07.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/ra_07.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/rb.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/rb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/rb01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/rb01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/rb1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/rb1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/table_name_bg.gif" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/table_name_bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/xjp.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/xjp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/xjp01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/xjp01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/xjp1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/xjp1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/yg.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/yg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/yg01.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/yg01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/img/yg1.png" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/img/yg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/inc/aa.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/inc/aa.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/inc/cc.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/inc/cc.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/inc/lxbom.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/inc/lxbom.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/inc/top.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/inc/top.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/index.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/AjaxRequest.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/AjaxRequest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/DD_belatedPNG_0.0.8a.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/DD_belatedPNG_0.0.8a.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/floatdiv.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/floatdiv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/jquery.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/png.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/png.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/script.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/js/swfobject_source.js" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/js/swfobject_source.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/registration.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/registration.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/WebContent/24/mrsoft/reservation.html" afterPath="$PROJECT_DIR$/JavaScript/WebContent/24JavaScript+Ajax+jQuery网页开发/mrsoft/reservation.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/WebContent/07正则表达式/04字符匹配符的使用/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JavaScript/WebContent/08程序调试与错误处理/01onerror事件/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="93" />
+    <option name="y" value="14" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07正则表达式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript从入门到精通" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07正则表达式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04字符匹配符的使用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript从入门到精通/JavaScript/WebContent/07正则表达式/04字符匹配符的使用/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a971c94a-3534-4fd4-bc82-29275f6ca1f2" name="Default" comment="" />
+      <created>1495074478546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495074478546</updated>
+      <workItem from="1495074485543" duration="63000" />
+      <workItem from="1495103883473" duration="774000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="837000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="93" y="14" width="1400" height="820" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaScript/WebContent/08程序调试与错误处理/01onerror事件/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/WebContent/08程序调试与错误处理/01onerror事件/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/WebContent/07正则表达式/04字符匹配符的使用/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

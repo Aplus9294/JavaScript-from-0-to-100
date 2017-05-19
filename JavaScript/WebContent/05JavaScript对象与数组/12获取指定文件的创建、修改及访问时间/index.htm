@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>获取指定文件的创建、修改及访问时间</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	</head>
+
+	<body>
+		<form name="form1" method="post" action="">
+			文件路径:
+			<input type="text" name="text1" value="E:\word\JavaScript\qq.txt">
+			<input type="button" name="Button1" value="文件的相关日期" onclick="ShowFileData(document.form1.text1.value)">
+		</form>
+		<script language="javascript">
+			<!--
+			function ShowFileData(filespec) {
+				var fso, f, s;
+				fso = new ActiveXObject("Scripting.FileSystemObject");
+				f = fso.GetFile(filespec);
+				var d = f.DateCreated;
+				Cdate = new Date(d);
+				d = f.DateLastModified;
+				Mdate = new Date(d);
+				d = f.DateLastAccessed;
+				Adate = new Date(d);
+				s = "当前文件的创建时间为:" + Cdate.toLocaleString() + "\n当前文件的修改时间为:" + Mdate.toLocaleString() + "\n当前文件的访问时间为:" + Adate.toLocaleString();
+				alert(s);
+			}
+			//-->
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<script language="javascript">
+			function AllReset() {
+				if(window.confirm("是否进行重置？"))
+					return true;
+				else
+					return false;
+			}
+
+			function AllSubmit() {
+				var T = true;
+				var e = window.event;
+				var obj = e.srcElement;
+				for(var i = 1; i <= 7; i++) {
+					if(eval("obj." + "txt" + i).value == "") {
+						T = false;
+						break;
+					}
+				}
+				if(!T) {
+					alert("提交信息不允许为空");
+				}
+				return T;
+			}
+		</script>
+		<title>表单提交的验证</title>
+	</head>
+
+	<body style="font-size: 12px">
+		<form name="form1" onreset="return AllReset()" onsubmit="return AllSubmit()">
+			<table width="487" height="333" border="0" align="center" cellpadding="0" cellspacing="0" background="bg.JPG">
+				<tr>
+					<td align="center" valign="top">
+						<br> <br> <br> <br><br>
+						<table width="86%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#6699CC">
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">所属类别:</td>
+								<td height="22" align="left">
+									<select name="txt1" id="txt1">
+										<option value="数码设备">数码设备</option>
+										<option value="家用电器">家用电器</option>
+										<option value="礼品工艺">礼品工艺</option>
+									</select>
+									<select name="txt2" id="txt2">
+										<option value="数码相机">数码相机</option>
+										<option value="打印机">打印机</option>
+									</select>
+								</td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">商品名称:</td>
+								<td height="22" align="left"><input name="txt3" type="text" id="txt3" size="30" maxlength="50"></td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">会员价:</td>
+								<td height="22" align="left"><input name="txt4" type="text" id="txt4" size="10"></td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">提供厂商:</td>
+								<td height="22" align="left"><input name="txt5" type="text" id="txt5" size="30" maxlength="50"></td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">商品简介:</td>
+								<td height="22" align="left"><textarea name="txt6" cols="35" rows="4" id="txt6"></textarea></td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" align="right">商品数量:</td>
+								<td height="22" align="left"><input name="txt7" type="text" id="txt7" size="10"></td>
+							</tr>
+							<tr style="background-color: #FFFFFF">
+								<td height="22" colspan="2" align="center"><input name="sub" type="submit" id="sub2" value="提交"> &nbsp; <input type="reset" name="Submit2" value="重 置"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>指定文本不能被选择</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<script>
+			function Tselect(obj) {
+				if(obj.type != 'text')
+					return false;
+			}
+		</script>
+	</head>
+
+	<body onselect="return Tselect(event.srcElement)">
+		<form name="form1" method="post" action="">
+			<p>选择页面中的文本内容.</p>
+			<p>
+				<input name="textfield" type="text" onselect="return Tselect(event.srcElement)" value="hello!LiPing.">
+			</p>
+		</form>
+
+	</body>
+
+</html>
