@@ -9,11 +9,9 @@
 
 	<body>
 		<script language="javascript">
-			<!--
 			var myString = new String("aBcDe");
 			var lower = myString.toLowerCase();
 			alert(myString + "转换为小写字母后为：" + lower)
-			//-->
 		</script>
 
 	</body>

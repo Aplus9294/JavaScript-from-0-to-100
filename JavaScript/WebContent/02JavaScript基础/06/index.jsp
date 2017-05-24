@@ -9,11 +9,9 @@
 
 	<body>
 		<script language="javascript">
-			<!--
 			var a = 1 + 2 * 3; //按自动优先级计算
 			var b = (1 + 2) * 3; //使用()改变运算优先级
 			alert("a=" + a + "\nb=" + b); //分行输出结果
-			-->
 		</script>
 
 	</body>

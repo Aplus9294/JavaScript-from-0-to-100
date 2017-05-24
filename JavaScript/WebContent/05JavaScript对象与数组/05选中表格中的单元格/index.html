@@ -3,32 +3,33 @@
 	<head>
 		<title>选中表格中的单元格</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<style type="text/css">
+			.STYLE3 {
+				font-size: 13px;
+				color: #FF0000;
+			}
+			
+			.STYLE4 {
+				font-size: 12px
+			}
+			
+			.table1 {
+				width: 547;
+				height: 200;
+				border: 0;
+				margin: 0 auto;
+			}
+			
+			.table2 {
+				width: 500;
+				border: 1;
+				margin: 0 auto;
+				border-color: #FFFFFF;
+				background-color: #CCCCCC;
+			}
+		</style>
+
 	</head>
-	<style type="text/css">
-		.STYLE3 {
-			font-size: 13px;
-			color: #FF0000;
-		}
-		
-		.STYLE4 {
-			font-size: 12px
-		}
-		
-		.table1 {
-			width: 547;
-			height: 200;
-			border: 0;
-			margin: 0 auto;
-		}
-		
-		.table2 {
-			width: 500;
-			border: 1;
-			margin: 0 auto;
-			border-color: #FFFFFF;
-			background-color: #CCCCCC;
-		}
-	</style>
 
 	<body>
 		<table class="table1">
@@ -97,7 +98,7 @@
 				} else {
 					e = element;
 				}
-				if(e.tagName == "TD") {
+				if(e.tagName == "td") {
 					c = findcell(e);
 					if(c != null) {
 						if(lastSelection != null) {
@@ -112,9 +113,9 @@
 			table1.onclick = select;
 
 			function findcell(e) {
-				if(e.tagName == "TD") {
+				if(e.tagName == "td") {
 					return e;
-				} else if(e.tagName == "BODY") {
+				} else if(e.tagName == "body") {
 					return null;
 				} else {
 					return findcell(e.parentElement);

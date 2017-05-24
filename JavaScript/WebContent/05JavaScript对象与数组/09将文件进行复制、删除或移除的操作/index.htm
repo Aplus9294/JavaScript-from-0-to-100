@@ -14,11 +14,11 @@
 					<form name="form1" method="post" action="">
 						<p>
 							原文件路径：&nbsp;&nbsp;
-							<input type="text" name="text1" value="E:\word\JavaScript\qq.txt">
+							<input type="text" name="text1" value="E:\瑜淑媛.jpg">
 						</p>
 						<p>
 							目的文件路径：
-							<input type="text" name="text2" value="E:\Destination\hh.txt">
+							<input type="text" name="text2" value="D:\">
 							<input type="button" name="Button" value="复制" onclick="filecopy(document.form1.text1,document.form1.text2)">
 						</p>
 					</form>
@@ -48,7 +48,6 @@
 			</tr>
 		</table>
 		<script language="javascript">
-			<!--
 			function filecopy(sname, dname) {
 				var fso, f;
 				fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -72,7 +71,6 @@
 				f.Move(mname);
 				alert("文件移除成功");
 			}
-			//-->
 		</script>
 	</body>
 

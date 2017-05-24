@@ -5,16 +5,7 @@
 	<head>
 		<title>显示指定驱动器的大小及可用空间</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-	</head>
-
-	<body>
-		<form name="form1" method="post" action="">
-			盘符：
-			<input type="text" name="text1"> &nbsp;&nbsp;&nbsp;
-			<input type="button" name="Button1" value="磁盘空间" onclick="DriveSize(document.form1.text1)">
-		</form>
 		<script language="javascript">
-			<!--
 			function DriveSize(Drivename) {
 				var fso = new ActiveXObject("Scripting.FileSystemObject");
 				var s = fso.GetDrive(Drivename.value);
@@ -29,8 +20,13 @@
 				} else
 					alert("该驱动器无效。")
 			}
-			//-->
 		</script>
+	</head>
+
+	<body>
+		盘符：
+		<input type="text" name="text1"> &nbsp;&nbsp;&nbsp;
+		<input type="button" name="Button1" value="磁盘空间" onclick="DriveSize(document.text1.val())">
 
 	</body>
 
